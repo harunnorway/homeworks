@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>List Example</title>
+ <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>List Example</h3>
+        <form>
+          <div class="form-group">
+            <label for="newItem">Add New Item</label>
+            <input type="text" class="form-control" id="newItem" placeholder="Enter new item">
+          </div>
+          <button type="button" class="btn btn-primary" onclick="addItem()">Add</button>
+        </form>
+        <ul id="list" class="list-group mt-3">
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="list.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
